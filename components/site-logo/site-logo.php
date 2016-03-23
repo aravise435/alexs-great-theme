@@ -1,0 +1,1 @@
+<?php great_theme_the_site_logo(); ?>

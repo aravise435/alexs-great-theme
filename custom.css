@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# 
+
+
+
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+body{ background-color: #ffffff;}
+.headerarea{
+    width:85%;
+    margin: 0 auto;
+}
+.maindiv{
+
+}
+.mainnav{
+    min-height: 60px;
+     float: left;
+    border-top:1px solid #dbdbdb;
+    padding: 0;
+}
+
+.site-branding{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 38.5%;
+}
+
+
+.heroimage{
+    width: 100%;
+    min-height: 501px;
+    background-image: url("handRose2.png");
+    background-repeat: no-repeat;
+    float: left;
+    background-color: #000;
+}
+.horizontalbar{
+    width: 25%;
+    min-height: 200px;
+    
+    float: left;
+}
+
+.homecontent{
+    width: 75%;
+  
+    float: left;
+}
+.site-footer{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    background-color: black;
+}
+.content-area
+{
+   
+     float: left;
+}
+
+.site-content{
+    margin-top: -15px;
+    background-color: #dcc5de;
+}
+/*--------------------------------------------------------------
+# Navigsation/Menu
+--------------------------------------------------------------*/
+.menu-navigation-container{
+    display: flex;
+    background: #fff;
+        padding-top: 10px;
+    min-height: 68px;
+}
+
+.main-navigation a{
+    margin: 20px;
+    color: #000000;
+}
+.main-navigation a:visited{
+    margin: 20px;
+    color: #000000;
+}
+.menu > li > a:hover{
+    color: #58e31d;
+    font-weight: bold;
+}
+ul.nav-menu li{
+    padding-right: 5px;
+}
+ul.nav-menu{
+    margin: 0 auto;
+    display: inline-block;
+    color: #000000;
+    font-family: georgia;
+    font-style: italic; 
+}
+
+.menu > li > a{
+    color: #000;
+    font-size: 21px;
+    
+}
+.menu > li > a:visited{
+    font-size: 21px;
+    
+}
+.navstyle{    min-height: 75px;
+    padding-top: 10px;}
+.logo{    max-width: 17rem;    padding-top: 20px;
+    padding-bottom: 10px;}
+.slidercontainer{padding: 0;}
+/*--------------------------------------------------------------
+# Widget
+--------------------------------------------------------------*/
+.site-content .widget-area {
+    float: right;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Widget
+--------------------------------------------------------------*/
+
+.post-title{
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Mobile Media Query
+--------------------------------------------------------------*/
+@media only screen and (max-width: 40em) { 
+    .menu > li{display: inline-block;width: 100%; background: #fff; border-top: 1px solid #ccc;}
+    .top-bar, .top-bar ul{background: #fff;}
+    .site-branding {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+}
