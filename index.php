@@ -14,6 +14,7 @@
 get_header(); ?>
 <?php if ( is_active_sidebar( 'slider-sidebar' ) ) : ?>
        <div class="small-12 medium-12 large-12 columns slidercontainer">
+           
 		<?php dynamic_sidebar( 'slider-sidebar' ); ?>
 	  </div>
 <?php endif; ?>
