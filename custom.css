@@ -66,6 +66,7 @@ body{ background-color: #ffffff;}
 {
    
      float: left;
+     width: 100%;
 }
 
 .site-content{
@@ -116,9 +117,14 @@ ul.nav-menu{
 }
 .navstyle{    min-height: 75px;
     padding-top: 10px;}
-.logo{    max-width: 17rem;    padding-top: 20px;
-    padding-bottom: 10px;}
-.slidercontainer{padding: 0;}
+.logo{    
+    max-width: 17rem;   
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.slidercontainer{
+    padding: 0;
+}
 /*--------------------------------------------------------------
 # Widget
 --------------------------------------------------------------*/
@@ -135,13 +141,42 @@ ul.nav-menu{
 .post-title{
     text-align: center;
 }
+.bio-widget{
+    padding: 30px 36px 0px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+    padding-bottom: 10px
+}
 
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  
+}
+.entry-title{
+    font-family: Italianno, Lato; 
+    font-size: 65px;
+    text-align: center;
+}
+
+h5.bio-title{
+    text-align: center;
+    font-weight: bold;
+}
 /*--------------------------------------------------------------
 # Mobile Media Query
 --------------------------------------------------------------*/
 @media only screen and (max-width: 40em) { 
-    .menu > li{display: inline-block;width: 100%; background: #fff; border-top: 1px solid #ccc;}
-    .top-bar, .top-bar ul{background: #fff;}
+    .menu > li{
+        display: inline-block;
+        width: 100%; 
+        background: #fff; 
+        border-top: 1px solid #ccc;
+    }
+    .top-bar, .top-bar ul{background: #fff;
+    }
     .site-branding {
     height: auto;
     max-width: 100%;

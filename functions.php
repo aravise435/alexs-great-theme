@@ -145,7 +145,11 @@ wp_enqueue_style( 'alexs_great_theme-style', get_template_directory_uri().'/styl
     
 	wp_enqueue_style( 'alexs_great_theme-style', get_stylesheet_uri() );
     
-      wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() .'/custom.css');
+    wp_enqueue_style('google-font-lato', '//fonts.googleapis.com/css?family=Lato');
+    
+    wp_enqueue_style('google-font', '//fonts.googleapis.com/css?family=Italianno&text=My');
+    
+    wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() .'/custom.css');
 
 	wp_enqueue_script( 'alexs_great_theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

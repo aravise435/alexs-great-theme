@@ -13,7 +13,7 @@
 
 get_header(); ?>
 <?php if ( is_active_sidebar( 'slider-sidebar' ) ) : ?>
-       <div class="small-12 medium-12 large-12 columns slidercontainer">
+       <div class="small-12 medium-12 large-12 columns slidercontainer hide-for-small-only">
            
 		<?php dynamic_sidebar( 'slider-sidebar' ); ?>
 	  </div>
@@ -65,7 +65,7 @@ get_header(); ?>
             </div>
         </div>
  <div class="small-12 medium-4 large-4 columns">
-     <div class="small-12 medium-12 large-12 columns">
+     <div class="small-12 medium-12 large-12 columns bio-widget">
          <?php
          // The Query       
 $the_query = new WP_Query( array( 'pagename' => 'Bio' ));
@@ -75,7 +75,7 @@ if ( $the_query->have_posts() ) {
 		$the_query->the_post();
 		the_post_thumbnail( 'medium' ); 
         ?>
-        <h3> Alex </h3>
+        <h5 class="bio-title"> Alexandra Sauer </h5>
          <?php
         the_content();
 	}
